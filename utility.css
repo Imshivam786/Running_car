@@ -19,6 +19,20 @@
     bottom: 0px;
     animation: roadmove 5s linear infinite;
 }
+.tree {
+    width: 500%;
+    height: 300px;
+    background-image: url('./images/tree.png');
+    
+    position: absolute;
+    bottom: 300px;
+    animation: treemove 5s linear infinite;
+}
+@keyframes treemove{
+    100%{
+        transform: translateX(-3000px);
+    }
+}
 @keyframes roadmove{
     100%{
         transform: translateX(-3000px);
